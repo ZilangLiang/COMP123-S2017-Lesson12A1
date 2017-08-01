@@ -4,6 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+ * Name:Zilang Liang
+ * Date: August 1, 2017
+ * Description: This is a Demo Application to showcase User interface
+ * version 0.1 - created the project
+ */
+
 namespace COMP123_S2017_Lesson12A
 {
     static class Program
@@ -16,7 +23,7 @@ namespace COMP123_S2017_Lesson12A
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Demo());
         }
     }
 }
